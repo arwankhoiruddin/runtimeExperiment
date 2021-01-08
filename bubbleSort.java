@@ -3,11 +3,11 @@ import java.io.FileWriter;
 class bubbleSort {
     public static void main(String[] args) throws Exception {
 
-        int numExperiments = 2000;
+        int numExperiments = 1000;
         long[] duration = new long[numExperiments];
 
         // initialize numbers (ascending)
-        int[] angka = new int[10000];
+        int[] angka = new int[1000];
 
 
         System.out.println("Duration to sort");
